@@ -1,0 +1,524 @@
+*{
+    margin: 0%;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;   
+     background-color: #ffffff;
+     /* font-weight: 900; */
+}
+header{
+    background-color: #ffffff;
+z-index: 2200000;
+    position:sticky;
+    top: 0%;
+    border-bottom: solid 2px black;
+    padding: 17px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    margin: 0 20px;
+}
+.menu {
+    display: none;
+}
+#logo{
+    font-size: 1.4em;
+}
+#logo span{
+
+    font-weight: bold;
+
+    color:  rgb(21, 116, 241);
+
+}
+#one{
+    background-color: rgb(250, 235, 215);
+    border-radius: 10px;
+
+font-weight: bold;
+padding: 10px;
+}
+#one:hover{
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.438);
+}
+#two{
+    border-radius: 10px;
+
+    color: #ffffff;
+    padding: 10px;
+background-color:#d6cda4;
+}
+.ahmed{
+    background-color: #3d8361;
+height: 330px;
+    padding: auto 300px;
+    text-align: center;
+}
+.ahmed h1{
+    padding-top: 60px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.ahmed a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+background-color: #d6cda4;
+    padding: 19px 23px;
+position: relative; 
+top:70px ;
+box-shadow: -7px 7px white;
+}
+.ahmed a:hover{
+    box-shadow: -10px 10px white;
+
+
+}
+.over{
+}
+.three{
+    /* padding: 18px ; */
+    border-bottom: solid 2px black;
+margin-left: 40px;
+margin-right:40px ;
+}
+/* .three a{
+
+    padding: 17px;
+    text-decoration: none;
+    color: black;
+    font-size: 2.4em;
+    margin: 0 20px;
+
+} */
+.three a:hover{
+    border-bottom: solid 4px rgb(233, 170, 87);
+
+}
+.first{
+    margin: 80px 190px auto 100px;
+}
+.first h1{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.card{
+    position: relative;
+    bottom: 170px;
+    height: 600px;
+    width: 300px;
+    background-color: rgba(7, 114, 253, 0.123);
+}
+.carda{
+    border-bottom: solid 0.2px rgba(0, 0, 0, 0.411);
+    height: 24.8%;
+}
+.carda h1{
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+    left: 6px;
+}
+.carda p{
+    position: relative;
+    top: 30px;
+    left: 6px;
+
+    font-size: 12px;
+}
+.father{
+    display: flex;
+}
+.six{
+    text-align: center;
+}
+.six h1{
+    font-size: 2.0em;
+}
+.seven img{
+    margin: 40px 60px;
+}
+.eight{
+
+margin: auto 7%;
+padding: 130px auto;
+background-color:  #1c67583a;
+}
+.small{
+    border-left: solid 5px #1c6758;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    border-bottom: solid 0.2px rgb(0, 0, 0);
+padding-bottom: 10px;
+    padding-top: 30px;
+display: flex;
+justify-content: space-between;
+}
+.small h1{
+    margin-left: 40px;
+    margin-right: 60px;
+    font-size: 3em;
+}
+.small h2{
+    color: #1c6758;
+font-size: 1.9em;
+}
+.smallb{
+position: relative;
+right: 160px;
+}
+.small a{
+    position: relative;
+    top: 16px;
+    padding: 10px;
+    text-decoration: none;
+    color: #1c6758;
+    font-size: 1.4em;
+    margin: 80px 10px;
+border: solid 2px #1c6758;
+border-radius: 10px;
+}
+.small a:hover{
+background-color: #1c67583a;
+}
+#quary{
+display: none;
+}
+#btn{
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    border: none;
+    background: none;
+    font-size: 3em;
+    margin-top: 90px;
+    color: rgba(0, 0, 0, 0.267)
+}
+#btn:hover{
+    color: black;
+
+}
+.btn{
+    text-align: center;
+}
+.creata{
+    margin-top: 100px;
+text-align: center;
+}
+.creata h1{
+    font-size: 3em;
+}
+.creatb{
+    display: flex;
+}
+.creatc img{
+    width: 100%;
+}
+.creatc h2{
+    margin-left: 7px;
+    font-size: 20px;
+    margin-bottom: 10px;
+margin-top: 20px;
+}
+.creatc{
+    height: 400px;
+    margin: 50px 60px;
+    border: solid 2px black;
+}
+.creatc p{
+    margin-left: 10px;
+}
+.creatc:hover{
+    box-shadow: -10px 10px;
+  position: relative;
+  left: 2px;
+}
+.end{
+    text-align: center;
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+.end h1{
+    font-size: 3em;
+    padding-top: 30px;
+}
+.enda a{
+    position: relative;
+    top: 30px;
+    margin:  10px;
+    font-size: 40px;
+    color: white;
+}
+.all2{
+    height: auto;
+}
+.man{
+    display: flex;
+    margin: 80px 90px;
+    justify-content: space-around;
+}
+.man h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.start{
+    border-radius: 10px;
+    margin-left: 15%;
+    width: 70%;
+    height: 160px;
+    background-color: rgba(7, 114, 253, 0.123);
+}
+.start h1{
+    position: relative;
+    top: 30px;
+    margin: auto 50px;
+    font-size: 30px;
+
+}
+.start p{
+    position: relative;
+    top: 70px;
+
+    margin-left: 50px;
+    font-size: 17px;
+}
+.menug{
+    border-radius: 10px;
+    margin-left: 15%;
+    width: 70%;
+    height: 160px;
+display: flex;
+justify-content: space-between;
+}
+.menui h1{
+    position: relative;
+    top: 30px;
+    margin: auto 50px;
+    font-size: 24px;
+
+    margin-bottom: 30px;
+}
+.menui p{
+    position: relative;
+    top: 20px;
+
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.menue{
+    position: relative;
+    top: 70px;
+}
+.menue a{
+    padding: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+#btn1,#btn2{
+    position: relative;
+    top: 2px;
+    padding: 31px;
+    border: none;
+    font-size: 40px;
+    background: none;
+}
+#btn2{
+
+    border-bottom: solid 5px #1c6758;
+}
+@media (max-width:500px) {
+    header{
+        z-index: 5555555555555555555555555555;
+position: sticky;
+top: 0px;
+    }
+    #logo{
+        position: relative;
+        left: 4px;
+    }
+    .one{
+        display: none;
+    }
+    #logo{
+        margin: 0%;
+        font-size: 20px;
+        display: block;
+    }
+    .two{
+        display: none;
+    }
+    .menu a{
+        font-size: 24px;
+        position: relative;
+        left: 6px;
+    }
+    .menu {
+        display: block;
+    }
+    .three {
+        display: flex;
+        margin: 0%;
+    }
+    #btn1{
+        font-size: 30px;
+        padding: auto;
+        margin: auto;
+    }
+    #btn2{
+        font-size: 30px;
+        padding: auto;
+        margin: auto;
+
+ 
+    }
+    .first{
+        position: relative;
+        top: 600px;
+     margin: 20px;
+    }
+    .father{
+        display: contents;
+    }
+    .card{
+margin-left: 10px;
+        position: relative;
+        bottom:640px;
+
+    }
+    .creatb{
+        display: block;
+    }
+    .creatc{
+        box-shadow: -10px 10px;
+        width: 85%;
+        height: 400px;
+        margin: 50px 7%;
+        border: solid 2px black;
+    }
+    .creatc:hover{
+        position: relative;
+left: 0;
+    }
+    .eight{
+width: 100%;
+       margin: auto;
+        padding: 130px auto;
+        background-color:  #1c67583a;
+        }
+        .small h1{
+            /* margin-left: 40px;
+            margin-right: 60px; */
+            font-size: 2em;
+        }
+        .small h2{
+            /* margin-left: 50px; */
+            color: #1c6758;
+        font-size: 1.5em;
+        }
+        .smallb{
+            position: relative;
+            right: auto;
+        }
+.smallc a{
+    display: none;
+}
+.man{
+    display: flex;
+    margin: 40px 5px;
+    justify-content: space-between;
+}
+/* /* .mana{
+    margin-right: 100px;
+
+} */
+.manb{
+    margin-left: 20px;
+} 
+
+.start{
+    border-radius: 10px;
+    margin-left: auto;
+    width: 100%;
+    height: 160px;
+    background-color: rgba(7, 114, 253, 0.123);
+}
+.start h1{
+    position: relative;
+    top: 12px;
+    margin: auto 10px;
+    font-size: 24px;
+
+}
+.start p{
+    position: relative;
+top: 15px;
+    margin-left: 10px ;
+    font-size: 16px;
+}
+.seven{
+    grid-template-columns: auto auto;
+    display: grid;
+}
+.seven img{
+    margin: 40px auto;
+}
+.bigmenu{
+    margin-bottom: 40px;
+}
+.menug{
+    border-radius: 10px;
+    margin-left: auto;
+    width: 70%;
+    height: 160px;
+display: flex;
+justify-content: space-between;
+}
+.menui h1{
+    position: relative;
+    top: 30px;
+    right: 120px;
+    margin-right: auto;
+    font-size: 19px;
+
+    margin-bottom: 30px;
+}
+.menui p{
+    position: relative;
+    top: 5px;
+    right: 70px;
+
+    margin-left: auto;
+    font-size: 14px;
+}
+
+.menue{
+    position: relative;
+    top: 70px;
+}
+.menue a{
+    padding: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+.menue a{
+    padding: 10px;
+    font-size: 20px;
+}
+
+}
